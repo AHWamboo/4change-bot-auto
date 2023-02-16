@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "target": "es2020",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": "/src",
+    "typeRoots": ["node_modules/@types"],
+    "esModuleInterop": true,
+    "types": ["jest", "puppeteer", "jest-environment-puppeteer", "expect-puppeteer"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", ".config/puppeteerSetup.ts"]
+}
